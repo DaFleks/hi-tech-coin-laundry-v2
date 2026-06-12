@@ -25,9 +25,10 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en" className={`${geistSans.className} h-full antialiased`}>
-      <body className="min-h-full flex flex-col">
+      <body className="min-h-full h-full flex flex-col">
         <Navbar />
-        {children}
+        <div className="h-24" />
+        <main className="grow">{children}</main>
       </body>
     </html>
   );
