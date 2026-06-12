@@ -37,7 +37,7 @@ const Navbar = () => {
               </Button>
             </li>
             <li>
-              <Button variant="laundry" className="font-semibold">
+              <Button className="bg-white font-semibold text-laundry hover:bg-white/90">
                 Get Directions
               </Button>
             </li>
