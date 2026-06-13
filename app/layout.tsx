@@ -27,7 +27,7 @@ export default function RootLayout({
     <html lang="en" className={`${geistSans.className} h-full antialiased`}>
       <body className="min-h-full h-full flex flex-col">
         <Navbar />
-        <div className="h-24" />
+        {/* <div className="h-24" /> */}
         <main className="grow">{children}</main>
       </body>
     </html>
